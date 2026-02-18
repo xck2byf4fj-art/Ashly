@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Ashly ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    background: linear-gradient(45deg, #3a0ca3, #4361ee, #7209b7);
+    color:white;
+}
+
+.contenedor{
+    margin-top:100px;
+}
+
+h1{
+    font-size:50px;
+}
+
+p{
+    font-size:22px;
+}
+
+button{
+    background:#4895ef;
+    border:none;
+    padding:15px 30px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+}
+
+button:hover{
+    background:#560bad;
+}
+
+#mensaje{
+    margin-top:20px;
+    font-size:28px;
+    display:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>Para mi amor, Ashly 💖</h1>
+
+<p>
+Desde el 19 de Abril del 2024 mi vida cambió completamente.<br><br>
+
+Me gusta muchísimo estar contigo, eres lo mejor que me ha pasado<br>
+y quiero que sepas que te amo demasiado ❤️
+</p>
+
+<button onclick="mostrarMensaje()">Te amo demasiado</button>
+
+<p id="mensaje">Siempre juntos, mi niña 💕</p>
+
+<audio autoplay loop>
+<source src="fotografia.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+<script>
+function mostrarMensaje(){
+document.getElementById("mensaje").style.display="block";
+}
+</script>
+
+</body>
+</html>
